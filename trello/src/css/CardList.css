@@ -1,0 +1,19 @@
+.cardListArea {
+    display: inline-block;
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid #787878;
+    background-color: #DFE3E6;
+}
+
+.groupTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color : #17394D;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+

@@ -6,7 +6,7 @@ import RouteList from "./RouteList";
 
 const Root = () => (
     <Router>
-        <div>
+        <div className='contentsArea'>
             <Header />
             <RouteList />
         </div>

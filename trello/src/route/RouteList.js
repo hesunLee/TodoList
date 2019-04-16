@@ -4,7 +4,7 @@ import {Home, Hs_Board} from "./SetExport";
 
 
 const RouteList = () => (
-    <div>
+    <div className='contentsArea'>
         <Route exact path="/" component={Home} />
         <Route path="/Hs_Board" component={Hs_Board} />
     </div>

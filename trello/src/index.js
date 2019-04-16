@@ -3,7 +3,5 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Root from './route/Root';
 
-ReactDOM.render(
-    <Root />
-    , document.getElementById('root'));
+ReactDOM.render(<Root />, document.getElementById('root'));
 // registerServiceWorker();

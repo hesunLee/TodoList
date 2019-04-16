@@ -1,0 +1,7 @@
+.boardArea {
+    background-color: #1862ab;
+    padding: 20px 0px;
+    height:100%;
+    overflow:hidden;
+    display: block;
+}

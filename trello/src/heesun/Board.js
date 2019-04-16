@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import GroupList from './GorupList';
 import AddForm from './AddForm';
+import '../css/Board.css'
 
 class Board extends Component {
     //group list ÀÇ idx
@@ -32,7 +33,7 @@ class Board extends Component {
 
     render() {
         return (
-            <div>
+            <div className="boardArea">
                 <GroupList data={this.state.group_list} />
                 <AddForm onClick={this.handleAddClick}
                          onSubmit={this.handleAddSubmit}

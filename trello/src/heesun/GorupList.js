@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import CardList from './CardList';
+import '../css/GroupList.css'
 
 class GroupList extends Component {
 
@@ -8,7 +9,7 @@ class GroupList extends Component {
         const list = data.map(
             (info, index) => (<CardList idx={info.idx} title={info.title} key={index} />)
         )
-        return (<div>{list}</div>);
+        return (<div className="groupArea">{list}</div>);
     }
 }
 

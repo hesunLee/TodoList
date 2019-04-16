@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import '../css/GroupList.css'
+import '../css/CardList.css';
+import '../css/AddForm.css';
 
 class AddForm extends Component {
     state = {
@@ -9,32 +12,42 @@ class AddForm extends Component {
         this.setState({
             [e.target.name] : e.target.value
         })
+        console.log(e.target);
     };
 
     handleGroupInsert = (e) => {
         e.preventDefault();
-        this.props.onSubmit(this.state);
-        this.setState({title: ''})
+        if (this.state.title != '') {
+            this.props.onSubmit(this.state);
+            this.setState({title: ''});
+        }
     }
-
-
 
     render() {
         const {onClick, isInsertForm} = this.props;
+
         if (isInsertForm) {
             return (
-                <form onSubmit={this.handleGroupInsert}>
-                    <input name="title" onChange={this.handleGroupTitle} value={this.state.title}/>
-                    <button type="submit">Add CardList</button>
-                </form>
+                <div className="groupArea">
+                    <div className="cardListArea">
+                        <form onSubmit={this.handleGroupInsert}>
+                            <input name="title" className="titleText" onChange={this.handleGroupTitle} value={this.state.title} placeholder="Enter List Title"/>
+                            <button type="submit" className="btnAddList">Add</button>
+                        </form>
+                    </div>
+                </div>
             )
         } else {
             return (
-                <button onClick={onClick}> Add CardList +</button>
+                <div className="groupArea">
+                    <button onClick={onClick} className="btnAddForm"> + Add CardList</button>
+                </div>
             )
         }
-
     }
 }
+
+
+
 
 export default AddForm;

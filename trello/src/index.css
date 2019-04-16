@@ -1,3 +1,5 @@
+html, body, #root, .contentsArea { height:100%; overflow:hidden }
+
 body {
   margin: 0;
   padding: 0;
