@@ -1,3 +1,4 @@
+/*클릭시 입력창 노츨버튼*/
 .btnAddForm {
     background-color: #212529;
     border: 1px solid #212529;
@@ -11,6 +12,7 @@
     margin: 0px 10px;
 }
 
+/*입력요소 - 타이틀*/
 .titleText {
     width: 100%;
     padding: 7px;
@@ -21,6 +23,7 @@
     font-size: 15px;
 }
 
+/*클릭시 title 등록실행*/
 .btnAddList {
     background-color: #5AAC44;
     border: 1px solid #5AAC44;
