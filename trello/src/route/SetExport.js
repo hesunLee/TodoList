@@ -1,4 +1,4 @@
-// Route ¸¦ ÇÏ±â À§ÇØ¼­´Â ¸¸µé¾î µÎ¾ú´ø component export °úÁ¤ ÇÊ¿ä
-// Route Ãß°¡ ½Ã JS ÆÄÀÏ export  Ãß°¡
-export { default as Home } from './Home'; //(±âº»)ÆäÀÌÁö
-export { default as Hs_Board } from '../heesun/Board'; //Èñ¼±_board ÆäÀÌÁö
+// Route ë¥¼ í•˜ê¸° ìœ„í•´ì„œëŠ” ë§Œë“¤ì–´ ë‘ì—ˆë˜ component export ê³¼ì • í•„ìš”
+// Route ì¶”ê°€ ì‹œ JS íŒŒì¼ export  ì¶”ê°€
+export { default as Home } from './Home'; //(ê¸°ë³¸)í˜ì´ì§€
+export { default as Hs_Board } from '../heesun/Board'; //í¬ì„ _board í˜ì´ì§€

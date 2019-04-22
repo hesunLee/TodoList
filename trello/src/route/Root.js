@@ -17,5 +17,5 @@ export default Root;
 
 
 /*
-    Header.js ´Â main title °ú, Ä«Å×°í¸® ÀÌµ¿À» ´ã´ç
+    Header.js ëŠ” main title ê³¼, ì¹´í…Œê³ ë¦¬ ì´ë™ì„ ë‹´ë‹¹
 */

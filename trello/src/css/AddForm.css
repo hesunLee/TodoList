@@ -1,4 +1,4 @@
-/*Å¬¸¯½Ã ÀÔ·ÂÃ¢ ³ëÃú¹öÆ°*/
+/*í´ë¦­ì‹œ ì…ë ¥ì°½ ë…¸ì¸¨ë²„íŠ¼*/
 .btnAddForm {
     background-color: #212529;
     border: 1px solid #212529;
@@ -12,7 +12,7 @@
     margin: 0px 10px;
 }
 
-/*ÀÔ·Â¿ä¼Ò - Å¸ÀÌÆ²*/
+/*ì…ë ¥ìš”ì†Œ - íƒ€ì´í‹€*/
 .titleText {
     width: 100%;
     padding: 7px;
@@ -23,7 +23,7 @@
     font-size: 15px;
 }
 
-/*Å¬¸¯½Ã title µî·Ï½ÇÇà*/
+/*í´ë¦­ì‹œ title ë“±ë¡ì‹¤í–‰*/
 .btnAddList {
     background-color: #5AAC44;
     border: 1px solid #5AAC44;
@@ -33,4 +33,17 @@
     font-size: 14px;
     font-weight: bold;
     color: #ffffff;
+}
+
+.btnAddList:hover {
+    background-color: #259C06;
+}
+
+.btnAddCardForm {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #DFE3E6;
+    border: 1px solid #DFE3E6;
+    margin-top: 10px;
 }

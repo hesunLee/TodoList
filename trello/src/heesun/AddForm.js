@@ -11,13 +11,12 @@ class AddForm extends Component {
     handleGroupTitle = (e) => {
         this.setState({
             [e.target.name] : e.target.value
-        })
-        console.log(e.target);
+        });
     };
 
     handleGroupInsert = (e) => {
         e.preventDefault();
-        if (this.state.title != '') {
+        if (this.state.title !== '') {
             this.props.onSubmit(this.state);
             this.setState({title: ''});
         }
